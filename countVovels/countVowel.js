@@ -3,10 +3,7 @@ const VOWELHIGH = ['U', 'E', 'O', 'A', 'I'];
 let str = prompt('input a string: ', ' ');
 let rs;
 
-while (str != ' ') {
-    alert('input a string!');
-    let str = prompt('input a string: ', '');
-}
+
 rs = countVovel(str);
 alert('có ' + rs + ' nguyên âm trong chuỗi');
 
