@@ -10,7 +10,7 @@ function findIndex(arr, a) {
 
 }
 
-let arr = [3, 5, 6, 8];
+let arr = [3, 5, 6, 8, 11];
 let a = prompt('nhập a: ');
 
 if (findIndex(arr, a) == -1) {
